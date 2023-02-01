@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    ">
+  <bean id="product_0" class="dehtiar.hillel.Product">
+    <property name="id" value="0"></property>
+    <property name="name" value="bread"></property>
+    <property name="cost" value="18.50"></property>
+  </bean>
+
+  <bean id="product_1" class="dehtiar.hillel.Product">
+    <property name="id" value="1"></property>
+    <property name="name" value="buckwheat"></property>
+    <property name="cost" value="80.99"></property>
+  </bean>
+
+  <bean id="product_2" class="dehtiar.hillel.Product">
+    <property name="id" value="2"></property>
+    <property name="name" value="chicken"></property>
+    <property name="cost" value="100.0"></property>
+  </bean>
+
+  <bean id="product_3" class="dehtiar.hillel.Product">
+    <property name="id" value="3"></property>
+    <property name="name" value="banana"></property>
+    <property name="cost" value="40.0"></property>
+  </bean>
+
+  <bean id="product_4" class="dehtiar.hillel.Product">
+    <property name="id" value="4"></property>
+    <property name="name" value="cucumber"></property>
+    <property name="cost" value="40.0"></property>
+  </bean>
+
+  <bean id="product_5" class="dehtiar.hillel.Product">
+    <property name="id" value="5"></property>
+    <property name="name" value="tomato"></property>
+    <property name="cost" value="50.0"></property>
+  </bean>
+
+  <bean id="productRepository" class="dehtiar.hillel.ProductRepository" autowire="constructor"></bean>
+  <bean id="cart" class="dehtiar.hillel.Cart" autowire="constructor" scope="prototype"></bean>
+
+</beans>
