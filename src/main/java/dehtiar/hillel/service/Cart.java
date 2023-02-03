@@ -1,5 +1,7 @@
-package dehtiar.hillel;
+package dehtiar.hillel.service;
 
+import dehtiar.hillel.model.Product;
+import dehtiar.hillel.repository.ProductRepository;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.Value;

@@ -1,5 +1,7 @@
 package dehtiar.hillel;
 
+import dehtiar.hillel.repository.ProductRepository;
+import dehtiar.hillel.service.Cart;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 

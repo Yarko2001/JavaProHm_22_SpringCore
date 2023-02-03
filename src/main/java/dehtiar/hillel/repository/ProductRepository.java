@@ -1,5 +1,6 @@
-package dehtiar.hillel;
+package dehtiar.hillel.repository;
 
+import dehtiar.hillel.model.Product;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

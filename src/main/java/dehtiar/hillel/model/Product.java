@@ -1,4 +1,4 @@
-package dehtiar.hillel;
+package dehtiar.hillel.model;
 
 import lombok.Data;
 
