@@ -2,18 +2,14 @@ package dehtiar.hillel.repository;
 
 import dehtiar.hillel.model.Product;
 import java.util.List;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.ToString;
+import lombok.Data;
 
 /**
  * {@link ProductRepository} is a store class with a list of products.
  *
  * @author Yaroslav Dehtiar on 01.02.2023
  */
-@AllArgsConstructor
-@Getter
-@ToString
+@Data
 public class ProductRepository {
 
   List<Product> productList;
