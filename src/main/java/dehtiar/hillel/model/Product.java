@@ -10,9 +10,9 @@ import lombok.Data;
 @Data
 public class Product {
 
-  private final String name;
-  private final Integer id;
-  private final double cost;
+  private String name;
+  private Integer id;
+  private double cost;
 
 
 }
